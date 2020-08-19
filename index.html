@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opeyemi's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- We would be using font awesome for the social media icons below -->
+    <script src="https://kit.fontawesome.com/871f15b208.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section>
+      <!-- nav bar -->
+      <nav>
+        <!-- space for logo -->
+        <a href="#" class="logo">Resourceful Mind</a>
+        <!-- menu -->
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Team</a></li>
+        </ul>
+        <!-- bars -->
+        <div class="toggle"></div>
+      </nav>
+      <!-- Intro Text -->
+      <div class="text-container">
+        <p>Hey there,</p>
+        <p>I'M OPEYEMI</p>
+        <p>
+          Budding FrontEnd & Web Developer <br />| Public Relations | Digital
+          Media Strategist
+        </p>
+        <!-- hiring and cv button -->
+        <button class="req-serv">Request My Services</button>
+        <button class="down-cv">Download CV</button>
+      </div>
+      <!-- My profile picture -->
+      <img src="images\casual.JPG" alt="my casual picture" class="mypic" />
+    </section>
+    <!-- About Me -->
+    <div class="about-container">
+      <!-- insert image -->
+      <img src="images\casual.JPG" alt="a picture of opeyemi" class="mypic1" />
+      <!-- About text -->
+      <div class="aboutme-text">
+        <p>About Me</p>
+        <p>FrontEnd Developer | Public Relations |  Digital Media Strategy</p>
+        <p>
+          I have experienced both sides to life and I just want to solve real
+          world problems through Tech. I have valuable skills in HTML5, CSS and JavaScript. I also offer a
+          bonus...valuable experience in Public Relations and Digital Media
+          Strategy which means your projects will always have a human side to
+          them after meeting efficiency and industry standards.
+        <p>I pay attention to detail and strive to deliver pixel-perfect products to my clients, in addition to beating deadlines. <a href="#"><em>Learn more about Opeyemi</em> </a></p>
+        </p>
+        <!-- Add two more buttons -->
+        <button>Request My Services</button>
+        <button>Download CV</button>
+      </div>
+    </div>
+
+      <!-- Services code -->
+      <div class="services">
+        <!-- text inside the services -->
+        <div class="services-text">
+          <p>Services</p>
+          <p>Services required</p>
+          <p>I offer services in Software, Web and Wordpress development. I specialize in the FrontEnd and honestly cannot wait to bring your ideas to reality.</p>
+        </div>
+        <!-- box-->
+       <div class="box-container">
+          <!--1-->
+          <div class="box-1">
+            <span><img src="https://img.icons8.com/ios-filled/50/000000/laptop-coding.png"/></span>
+            <p class="heading">FrontEnd Developer</p>
+            <p class="details">You need a FrontEnd Developer for your business who will give his all for the success of your project? I'M YOUR MAN.</p>
+            <button>Read More</button>
+          </div>
+          <!--2-->
+          <div class="box-2">
+            <span><img src="https://img.icons8.com/ios/50/000000/wordpress.png"/></span>
+            <p class="heading">WordPress Developer</p>
+            <p class="details">You need a FrontEnd Developer for your business who will give his all for the success of your project? I'M YOUR MAN.</p>
+            <button>Read More</button>
+          </div>
+          <!-- 3 -->
+          <div class="box-3">
+            <span><img src="https://img.icons8.com/fluent/50/000000/public-speaking.png"/></span>
+            <p class="heading">Public Relations</p>
+            <p class="details">You need a FrontEnd Developer for your business who will give his all for the success of your project? I'M YOUR MAN.</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- contact me codes -->
+    <div class="contact-me">
+      <p>I would love to discuss even that light-bulb idea...It all starts from "Hello..."</p>
+      <button>Contact Me</button>
+    </div>
+    <!-- footer -->
+    <footer>
+      <p>ResourcefulMind</p>
+      <p>To commit to being a developer is to commit to continuous learning.</p>
+      <!-- social media -->
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <!-- Copyright code -->
+      <p class="copyright">Copyright by Resourcefulmind</p>
+    </footer>
+    <!-- attached social bar at the side -->
+    <div class="attach-soc-btn">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- JQuery -->
+    <script type="text/javaScript" src="/js/index.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.nav').toggleClass('active')
+       })
+      })
+    </script>
+  </body>
+</html>
